@@ -1,0 +1,84 @@
+/*
+   Main color: #b79990
+
+*/
+
+
+@font-face {
+    font-family: AvenirRegular; 
+    src: url(../fonts/AvenirNextCyr-Regular.otf);
+    font-weight: normal;
+    font-style: normal; 
+}
+    
+body {
+  font-family: AvenirRegular;
+}
+header {
+    padding: 154px 0 100px;
+    background: url(../img/header.jpg);
+    height: 900px;
+}
+
+.about {
+    background: url(../img/about-fon.jpg);
+    height: 900px;
+}
+
+.collections {
+    background-color: #b79990;
+    height: 900px;
+}
+.corporate {
+    background: url(../img/about-fon.jpg);
+    height: 900px;
+}
+.contact {
+    background-color: #b79990;
+    height: 900px;
+}
+
+@media (min-width: 992px) {
+    header {
+        padding: 156px 0 100px;
+    }
+}
+
+section {
+    padding: 100px 0;
+}
+
+.bg-bej {
+    background-color: #b79990 !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
+}
+
+.main-link {
+    height: 51px;
+    width: 255px;
+    line-height: 2.1;
+    border-radius: 30px!important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 8px 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    /* padding: 8px 5px; */
+    font-size: 18px;
+    border-radius: 0;
+    cursor: pointer;
+}
+.transparent-button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.transparent-button:hover {
+    background-color: #b79990;
+    border-color: #b79990;
+    color: #fff;
+    text-decoration: none; }
