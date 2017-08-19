@@ -16,12 +16,12 @@ body {
 }
 header {
     padding: 154px 0 100px;
-    background: url(../img/header.jpg);
+    background: url(../img/header.jpg) no-repeat top center fixed;
     height: 900px;
 }
 
 .about {
-    background: url(../img/about-fon.jpg);
+    background: url(../img/about-fon.jpg) no-repeat top center fixed;
     height: 900px;
 }
 
@@ -30,12 +30,18 @@ header {
     height: 900px;
 }
 .corporate {
-    background: url(../img/about-fon.jpg);
+    background: url(../img/about-fon.jpg) no-repeat top center fixed;
     height: 900px;
 }
 .contact {
+    background: url(../img/1.jpg) no-repeat top center fixed;
+    background-size: cover;
     background-color: #b79990;
     height: 900px;
+}
+
+.footer {
+    background-color: #b79990;
 }
 
 @media (min-width: 992px) {
@@ -82,3 +88,7 @@ section {
     border-color: #b79990;
     color: #fff;
     text-decoration: none; }
+
+.centertext {
+    text-align:center;
+}
