@@ -26,7 +26,7 @@ header {
 }
 
 .collections {
-    background-color: #b79990;
+    background-color: #ffffff;
     height: 900px;
 }
 .corporate {
@@ -34,7 +34,7 @@ header {
     height: 900px;
 }
 .contact {
-    background: url(../img/1.jpg) no-repeat top center fixed;
+    background: url(../img/contact-fon.jpg) no-repeat top center fixed;
     background-size: cover;
     background-color: #b79990;
     height: 900px;
@@ -51,7 +51,7 @@ header {
 }
 
 section {
-    padding: 100px 0;
+    padding: 60px 0;
 }
 
 .bg-bej {
@@ -92,3 +92,71 @@ section {
 .centertext {
     text-align:center;
 }
+
+.cwhite {
+    color: white;
+}
+
+a > img {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #b79990;
+}
+
+.title-down {
+    padding-bottom: 30px;
+}
+
+.uline {
+    text-decoration: underline;
+    text-decoration-color: #b79990;
+}
+
+.form-wrap {
+    padding: 30px 15px;
+    border: 1px solid #b79990;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.page-views-contacts .contact-button {
+    height: 47px;
+}
+.simple-button {
+    background-color: #b79990;
+    border: 1px solid #b79990;
+    color: #fff;
+display: inline-block;
+position: relative;
+text-align: center;
+width: 100%;
+transition: all .3s;
+padding: 8px 5px;
+font-size: 18px;
+border-radius: 0;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.form-control {
+display: block;
+width: 100%;
+margin: 0;
+border-radius: 0;
+font-size: 16px;
+color: #231f20;
+background-color: rgba(183,153,144,0.19);
+border: 1px solid #b79990;
+border-radius: 0!important;
+transition: all .3s;
+box-shadow: none!important;
+height: 47px!important;
+padding: 6px 12px 6px 18px!important;
+}
+
+
+
+
