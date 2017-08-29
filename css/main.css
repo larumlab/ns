@@ -10,43 +10,69 @@
     font-weight: normal;
     font-style: normal; 
 }
-    
-body {
-  font-family: AvenirRegular;
-}
-header {
-    padding: 154px 0 100px;
-    background: url(../img/header.jpg) no-repeat top center fixed;
-    height: 900px;
+@font-face {
+    font-family: AvenirThin; 
+    src: url(../fonts/AvenirNextCyr-Thin.otf);
+    font-weight: normal;
+    font-style: normal; 
 }
 
+body {
+  font-family: AvenirRegular;
+  
+}
+header {
+   /* padding: 154px 0 100px; */
+    background: url(../img/main-page-bg.jpg) no-repeat bottom center;
+    /* background-size: cover; */
+    height: 950px;
+}
+.header-ttl {
+    font-family: AvenirThin;
+    font-size: 48px;
+    text-align: center;
+    line-height: 70px;
+    padding-top: 50px;
+}
 .about {
     background: url(../img/about-fon.jpg) no-repeat top center fixed;
-    height: 900px;
+    height: 1000px;
 }
 
 .collections {
-    background-color: #ffffff;
-    height: 900px;
+    background-image: radial-gradient(ellipse farthest-corner at center, #FFFFFF 0%, #b79990 75%);
+     /* background-color: #b79990;  */
+    /* background: url(../img/about-fon.jpg) no-repeat top center fixed; */
+    height: 1000px;
 }
 .corporate {
     background: url(../img/about-fon.jpg) no-repeat top center fixed;
-    height: 900px;
+    height: 1800px;
 }
 .contact {
-    background: url(../img/contact-fon.jpg) no-repeat top center fixed;
-    background-size: cover;
-    background-color: #b79990;
-    height: 900px;
+    /* background: url(../img/about-fon.jpg) no-repeat top center fixed; */
+   /* background-size: cover; */
+    /* background-color: #b79990; */
+    background-image: radial-gradient(ellipse farthest-corner at center, #FFFFFF 0%, #b79990 75%);
+    height: 1000px;
+    margin: 0;
 }
 
 .footer {
-    background-color: #b79990;
+    background-color:#fff;
+    color: black !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important; 
+}
+
+.material {
+   background-color: white;
+   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 @media (min-width: 992px) {
     header {
-        padding: 156px 0 100px;
+        padding: 100px 0 100px;
     }
 }
 
@@ -98,9 +124,7 @@ section {
 }
 
 a > img {
-    border-width: 5px;
-    border-style: solid;
-    border-color: #b79990;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .title-down {
@@ -108,6 +132,7 @@ a > img {
 }
 
 .uline {
+    margin-top: 20px;
     text-decoration: underline;
     text-decoration-color: #b79990;
 }
@@ -157,6 +182,70 @@ height: 47px!important;
 padding: 6px 12px 6px 18px!important;
 }
 
+.page-about-text-box {
+    margin-top: 20px;
+    color: #fff;
+    margin-bottom: 40px;
+    background-color: #c2aaa2;
+    text-align: center;
+    font-size: 22px;
+    padding: 10px;
+}
+.page-about-content ul li {
+    display: inline-block;
+    position: relative;
+    /* padding-left: 60px;
+    margin-bottom: 15px; */
+    color: #403f3d;
+}
 
+.text-box-inner {
+    padding: 16px 10px;
+    border: 1px solid #fff;
+}
 
+.mini-title {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #403f3d;
+}
 
+.pd10 {
+    margin-bottom: 10px;
+}
+
+.main-form {
+    padding-bottom: 20px;
+}
+
+.coop-logo {
+text-align: right;
+padding-bottom: 30px;
+}
+.coop-logo span {
+display: inline-block;
+margin: 35px 10px 0 0;
+vertical-align: middle;
+font-size: 24px;
+}
+.coop-logo img {
+display: inline-block;
+max-width: 150px;
+}
+
+.hgh {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.m-title {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.ttl {
+    font-size: 36px;
+    text-align: center;
+}
