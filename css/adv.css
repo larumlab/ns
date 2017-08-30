@@ -8152,7 +8152,7 @@ body.uk .field-registrationform-password label {
 }
 
 .fancybox-nav.fancybox-prev span {
-    background: #fff url(/images/coffe-arr-prev.svg);
+    background: #fff url(../img/coffe-arr-prev.svg);
     left: -50%;
     -webkit-transition: background .25s;
     transition: background .25s
@@ -8160,12 +8160,12 @@ body.uk .field-registrationform-password label {
 
 @media only screen and (min-width: 992px) {
     .fancybox-nav.fancybox-prev span:hover {
-        background:#b79990 url(/images/white-arr-prev.svg)
+        background:#b79990 url(../img/white-arr-prev.svg)
     }
 }
 
 .fancybox-nav.fancybox-next span {
-    background: #fff url(/images/coffe-arr-next.svg);
+    background: #fff url(../img/coffe-arr-next.svg);
     right: -50%;
     -webkit-transition: background .25s;
     transition: background .25s
@@ -8173,7 +8173,7 @@ body.uk .field-registrationform-password label {
 
 @media only screen and (min-width: 992px) {
     .fancybox-nav.fancybox-next span:hover {
-        background:#b79990 url(/images/white-arr-next.svg)
+        background:#b79990 url(../img/white-arr-next.svg)
     }
 }
 

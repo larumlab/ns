@@ -17,6 +17,13 @@
     font-style: normal; 
 }
 
+@font-face {
+    font-family: AvenirMedium; 
+    src: url(../fonts/AvenirNextCyr-Medium.otf);
+    font-weight: normal;
+    font-style: normal; 
+}
+
 body {
   font-family: AvenirRegular;
   
@@ -29,32 +36,32 @@ header {
 }
 .header-ttl {
     font-family: AvenirThin;
-    font-size: 48px;
+    font-size: 70px;
     text-align: center;
     line-height: 70px;
     padding-top: 50px;
 }
 .about {
     background: url(../img/about-fon.jpg) no-repeat top center fixed;
-    height: 1000px;
+    height: 950px;
 }
 
 .collections {
-    background-image: radial-gradient(ellipse farthest-corner at center, #FFFFFF 0%, #b79990 75%);
-     /* background-color: #b79990;  */
-    /* background: url(../img/about-fon.jpg) no-repeat top center fixed; */
-    height: 1000px;
+    /* background-image: radial-gradient(ellipse farthest-corner at center, #FFFFFF 0%, #b79990 75%); */
+     /* background-color: #b79990; */  
+    background: url(../img/about-fon.jpg) no-repeat top center fixed; 
+    height: 860px;
 }
 .corporate {
     background: url(../img/about-fon.jpg) no-repeat top center fixed;
-    height: 1800px;
+    height: 1650px;
 }
 .contact {
-    /* background: url(../img/about-fon.jpg) no-repeat top center fixed; */
+     background: url(../img/about-fon.jpg) no-repeat top center fixed; 
    /* background-size: cover; */
     /* background-color: #b79990; */
-    background-image: radial-gradient(ellipse farthest-corner at center, #FFFFFF 0%, #b79990 75%);
-    height: 1000px;
+    /* background-image: radial-gradient(ellipse farthest-corner at center, #FFFFFF 0%, #b79990 75%); */
+    height: 900px;
     margin: 0;
 }
 
@@ -87,8 +94,10 @@ section {
 }
 
 .main-link {
-    height: 51px;
-    width: 255px;
+    font-family: AvenirMedium;
+    font-size: 16px;
+    height: 60px;
+    width: 350px;
     line-height: 2.1;
     border-radius: 30px!important;
     text-transform: uppercase;
@@ -96,7 +105,7 @@ section {
     display: inline-block;
     position: relative;
     text-align: center;
-    padding: 8px 5px;
+    padding: 12px 5px;
     -webkit-transition: all .3s;
     transition: all .3s;
     /* padding: 8px 5px; */
@@ -183,7 +192,6 @@ padding: 6px 12px 6px 18px!important;
 }
 
 .page-about-text-box {
-    margin-top: 20px;
     color: #fff;
     margin-bottom: 40px;
     background-color: #c2aaa2;
@@ -235,7 +243,8 @@ max-width: 150px;
 }
 
 .hgh {
-    line-height: 30px;
+    color: rgb(35, 31, 32);
+    line-height: 1.2;
     font-size: 18px;
 }
 
@@ -249,3 +258,13 @@ max-width: 150px;
     font-size: 36px;
     text-align: center;
 }
+
+.bold-italic {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.pad {
+    height: 50px;
+} 
