@@ -489,8 +489,8 @@ label {
 
 .page-minus-margin {
     position: relative;
-    z-index: 2;
-    margin-top: -21px;
+    /*z-index: 2;
+    margin-top: -21px; */
     background-color: #fff
 }
 
@@ -8120,7 +8120,7 @@ body.uk .field-registrationform-password label {
 
 .fancybox-skin {
     border-radius: 0!important;
-    background-color: #b79990
+    background-color: transparent;
 }
 
 .fancybox-lock .fancybox-overlay {
@@ -9649,7 +9649,7 @@ tr.product-item.has-error .cart-product-quantity * {
 
 .page-cooperation .cooperation-main-text {
     padding-bottom: 26px;
-    line-height: 30px;
+    line-height: 24px;
     border-bottom: 1px solid #b79990;
     margin-bottom: 24px
 }
